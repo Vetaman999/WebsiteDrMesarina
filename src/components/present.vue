@@ -13,12 +13,11 @@
                                 <v-card-title style="font-size:75px; color:#FFFFFF;">
                                     Dr.Alejandro Mesarina
                                 </v-card-title>
-
-                                <v-card-text  style="font-size:24px; font-weight: lighter; color:#FFFFFF">
+                                <v-card-text my-100 style="font-size:24px; font-weight: lighter; color:#FFFFFF">
                                     Médico doctorado en medicina y especialista en Cirugía Ortopédica
                                 </v-card-text>
                                 <v-card-actions>
-                                    <v-flex d-flex justify-center mb-6>
+                                    <v-flex my-5 d-flex justify-center mb-6>
                                         <v-btn style="background-color: #2397D7; color:#FFFFFF; height: 61px; width: 200px;">
                                             <v-card-text  style="font-size:24px; font-weight: lighter; color:#FFFFFF">
                                                 Contacto
