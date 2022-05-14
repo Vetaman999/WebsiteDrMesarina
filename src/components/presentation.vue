@@ -1,78 +1,79 @@
 <template>
-  <v-card
-    class=""
-    max-width="100%"
-    flex
-  >
-    <v-img
-      class="white--text align-end"
-      height="450px"
-      src="../assets/Portada.png"
-      color="transparent"
-    >
-      <v-card height="50px" color="transparent" elevation="0"></v-card>
-      <div class="d-flex center"
-        width="100%"
-        style="
-          display: flex;
-          justify-content: center;
-          "
-      >
-        <v-card width="280px" 
-          color="transparent"
-          elevation="0"
+  <v-container>
+        <v-card
+          class=""
+          max-width="100%"
+        >
+          <v-img
+            class="white--text align-end"
+            max-height="450px"
+            src="../assets/Portada.png"
+            color="transparent"
           >
-          <v-img class="white--text align-end"
-            width="300px"
-            height="280px"
-            src="../assets/pres.png"
-          >
+          <v-conteiner grid-list-md>
+            <v-layout row wrap>
+              <v-flex>
+                <v-card max-height="50px" color="transparent" elevation="0"></v-card>
+                <v-div class="d-flex center"
+                  width="100%"
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    "
+                >
+                  <v-card max-width="280px" 
+                    color="transparent"
+                    elevation="0"
+                    >
+                    <v-img class="white--text align-end"
+                      max-width="300px"
+                      max-height="280px"
+                      src="../assets/pres.png"
+                    >
+                    </v-img>
+                  </v-card>
+                  <v-card  max-width="10px" max-height="60px" color="transparent" elevation="0"></v-card>
+                  <v-card color="transparent"
+                    elevation="0"
+                    max-width="1000px"
+                  >
+                    <v-card-title style="font-size:64px;
+                      color:#FFFFFF;"
+                    >
+                      Dr. Alejandro Mesarina
+                    </v-card-title>
+                    <v-card-text style="font-size:20px; font-family: Arial; font-weight: lighter; color:#FFFFFF">
+                      Médico doctorado en medicina y especialista en Cirugía Ortopédica
+                    </v-card-text>
+                    <v-card color="transparent" 
+                      max-height="20%"
+                      elevation="0"  
+                    ></v-card>
+                    <v-div class="d-flex center" style="
+                      display: flex;
+                      justify-content: center;"
+                    >
+                      <v-btn
+                        style="background-color: #2397D7; 
+                          color:#FFFFFF;
+                          height: 55px;
+                          max-width: 170px;
+                          font-size: 18px;
+                          font-family: sans-serif;
+                          "
+                      >
+                        Contacto
+                      </v-btn>
+                    </v-div>
+                  </v-card>
+                </v-div>
+                <v-card height="60" color="transparent" elevation="0"></v-card>
+              </v-flex>
+            </v-layout>
+          </v-conteiner>
           </v-img>
         </v-card>
-        <v-card  width="10px" height="60" color="transparent" elevation="0"></v-card>
-        <v-card color="transparent"
-          elevation="0"
-          width="34%"
-        >
-          <a
-            style="font-size:64px;
-            color:#FFFFFF;"
-          >
-            Dr. Alejandro Mesarina
-          </a>
-          <a 
-            style="font-size:20px; 
-              font-family: Arial; 
-              font-weight: lighter;
-              color:#FFFFFF"
-          >
-            Médico doctorado en medicina y especialista en Cirugía Ortopédica
-          </a>
-          <v-card color="transparent" 
-            height="20%"
-            elevation="0"  
-          ></v-card>
-          <div class="d-flex center" style="
-            display: flex;
-            justify-content: center;"
-          >
-            <v-btn
-              style="background-color: #2397D7; 
-                color:#FFFFFF;
-                height: 55px;
-                width: 170px;
-                font-size: 18px;
-                font-family: sans-serif;
-                "
-            >
-              Contacto
-            </v-btn>
-          </div>
-        </v-card>
-      </div>
-      <v-card height="60" color="transparent" elevation="0"></v-card>
-    </v-img>
-  </v-card>
+  </v-container>
 </template>
 
 <script>
