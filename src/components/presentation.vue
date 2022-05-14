@@ -3,7 +3,6 @@
     class=""
     max-width="100%"
     flex
-    
   >
     <v-img
       class="white--text align-end"
@@ -77,7 +76,6 @@
 </template>
 
 <script>
-
   export default {
     name: 'presentation',
     data: () => ({
