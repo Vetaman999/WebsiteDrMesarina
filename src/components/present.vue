@@ -28,4 +28,4 @@
                     </v-flex>
             </v-container>
         </v-img>
-    </v-card>    
+    </v-card>
