@@ -1,5 +1,5 @@
 <template>
-        <v-card class="mx-auto my-2" width="1000px">
+        <v-card class="mx-auto my-2" elevation="0" color="transparent">
             <v-container grid-list-md>
                 <v-layout row wrap>
                         <v-card width="200px" class="mx-auto" elevation="0" color="transparent">

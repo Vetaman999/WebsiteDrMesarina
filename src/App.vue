@@ -1,10 +1,12 @@
 <template>
   <v-app>
     <navbar></navbar>
-    <v-main>
-      <router-view/>
-    </v-main>
-    <Footer></Footer>
+    <v-content class="mx-auto py-0" style="width: 70vw;">
+      <v-main>
+        <router-view/>
+      </v-main>
+      <Footer></Footer>
+    </v-content>
   </v-app>
 </template>
 

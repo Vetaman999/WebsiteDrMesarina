@@ -1,6 +1,6 @@
 <template>
     <v-card>
-        <v-img class="white--text align-center" height="600px" src="../assets/Portada.png">
+        <v-img class="white--text align-center" height="500px" src="../assets/Portada.png">
             <v-container grid-list-md fill-height fluid>
                     <v-flex xs12 sm4 d-flex justify-end mb-6>
                         <v-card color="transparent" elevation="0">
@@ -9,7 +9,7 @@
                     </v-flex>
                     <v-flex d-flex align-content-center flex-wrap>    
                         <v-card d-flex  color="transparent" elevation="0">
-                            <v-card-title mb-7 style="font-size:75px; color:#FFFFFF;">
+                            <v-card-title mb-7 style="font-size:70px; color:#FFFFFF;">
                                 Dr.Alejandro Mesarina
                             </v-card-title>
                             <v-card-text style="margin-top: 10px;font-size:23.5px; ; font-weight: lighter; color:#FFFFFF">

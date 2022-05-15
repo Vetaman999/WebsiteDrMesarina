@@ -30,11 +30,6 @@
               nutricion@doctormesarina.com
               fisioterapia@doctormesarina.com
             </p>
-            <p class="text_p">
-              info@doctormesarina.com
-              laboratorio@doctormesarina.com
-              secretariado@doctormesarina.com
-            </p>
           </div>
         </div>
       </div>
@@ -51,10 +46,11 @@ export default {
 <style scoped>
 .text_p{
   color: #eeeeee;
-  font-size: 13px;
+  font-size:20px; 
+  font-weight: lighter
 }
 .img_bg {
-  background: url('../assets/foot.png')no-repeat;
+  background: url('../assets/foot.png') no-repeat;
   width: 100%;
   height: 45vh;
   background-size: cover;
