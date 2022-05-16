@@ -1,24 +1,22 @@
 <template>
   <v-app>
     <navbar></navbar>
-    <v-content class="mx-auto py-0" style="width: 70vw;">
-      <v-main>
-        <router-view/>
-      </v-main>
-      <Footer></Footer>
-    </v-content>
+    <v-main>
+      <router-view />
+    </v-main>
+    <AppFooter></AppFooter>
   </v-app>
 </template>
 
 <script>
 import navbar from "./components/navbar";
-import Footer from "./components/footer";
+import AppFooter from "./components/app-footer";
 
 export default {
   name: 'App',
   components: {
     navbar,
-    Footer
+    AppFooter
   },
 
   data: () => ({

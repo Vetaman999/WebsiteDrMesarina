@@ -1,10 +1,14 @@
 <template>
-  <div class="home" >
-    
-    <AboutUs></AboutUs>
+  <div class="home">
+
     <Presentation></Presentation>
-    <convention style="margin: 100px 0 200px 0;"></convention>
-    <Service style="margin: 100px 0 200px 0;"></Service>
+
+    <v-container class="mx-auto py-0" style="width: 70vw;">
+      <AboutUs></AboutUs>
+      <Convention style="margin: 100px 0 200px 0;"></Convention>
+      <Service style="margin: 100px 0 200px 0;"></Service>
+    </v-container>
+    
     <CallToReserve></CallToReserve>
     <Contact style="margin: 100px 0 200px 0;"></Contact>
   </div>
@@ -18,6 +22,7 @@ import Presentation from '@/components/present.vue'
 import Service from '@/components/service.vue'
 import Contact from '@/components/contact.vue'
 import CallToReserve from '@/components/call-to-reserve.vue'
+import Convention from '@/components/convention.vue'
 
 export default {
   name: 'Home',
@@ -27,7 +32,8 @@ export default {
     Contact,
     AboutUs,
     Service,
-    CallToReserve
-  }
+    CallToReserve,
+    Convention
+}
 }
 </script>
