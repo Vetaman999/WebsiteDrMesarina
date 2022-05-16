@@ -1,12 +1,15 @@
 <template>
   <section class="main_container">
     <div class="left_box">
-      <div class="img_bg">
+      <div id="base-doc-image" class="img_bg">
         <div class="blue_filter">
         </div>
       </div>
-      <img src="" alt="">
+      <div id="doc-image" class="doc-image">
+            <v-img src="../assets/doc1.png"></v-img>
+      </div>
     </div>
+    
     <div class="right_box">
       <h1 class="title_dr">Dr. Mesarina</h1>
       <h3>¿Porqué acudir con nosotros?</h3>
@@ -19,11 +22,40 @@
 
 <script>
 export default {
-  name: "about-us"
+  name: "about-us",
+  data: () => ({
+    baseImageElement: null,
+    imageElement: null
+  }),
+  mounted() {
+        this.baseImageElement = document.getElementById("base-doc-image");
+        this.imageElement = document.getElementById("doc-image");
+
+        window.addEventListener("resize", this.updateImagePosition);
+
+        this.imageElement.style.left = `${this.baseImageElement.offsetLeft + this.baseImageElement.offsetWidth  - (this.imageElement.offsetWidth / 2) }px`;
+        this.imageElement.style.top = `${this.baseImageElement.offsetTop + this.baseImageElement.offsetHeight - (this.imageElement.offsetHeight / 2) }px`;
+    },
+    unmounted() {
+        window.removeEventListener('resize', this.updateImagePosition);
+    },
+    methods: {
+
+        updateImagePosition(e) {
+          this.imageElement.style.left = `${this.baseImageElement.offsetLeft + this.baseImageElement.offsetWidth  - (this.imageElement.offsetWidth / 2) }px`;
+          this.imageElement.style.top = `${this.baseImageElement.offsetTop + this.baseImageElement.offsetHeight - (this.imageElement.offsetHeight / 2) }px`;
+        }
+    }
 }
 </script>
 
 <style scoped>
+.doc-image {
+    width: 160px;
+    height: 8%;
+    position: absolute;
+}
+
 .main_container{
   margin-top: 50px;
   display: flex;
@@ -31,7 +63,7 @@ export default {
   height: 50vh;
 }
 .img_bg {
-  background: url('../assets/about-img.png')no-repeat;
+  background: url('../assets/about-img.png') no-repeat;
   width: 80%;
   height: 50vh;
   background-size: cover;

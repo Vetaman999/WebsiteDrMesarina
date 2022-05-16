@@ -36,7 +36,7 @@
                 </v-card>
             </div>
         </div>
-        <div id="image" class="contact-image">
+        <div id="ct-image" class="contact-image">
             <v-img src="../assets/microfno.png"></v-img>
         </div>
     </div>
@@ -57,7 +57,7 @@ export default {
     mounted() {
         this.mainContainerElement = document.getElementById("main-container");
         this.colorElement = document.getElementById("second-color");
-        this.imageElement = document.getElementById("image");
+        this.imageElement = document.getElementById("ct-image");
 
         window.addEventListener("resize", this.updateImagePosition);
 
