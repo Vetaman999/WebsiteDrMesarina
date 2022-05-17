@@ -11,10 +11,10 @@
     </div>
     
     <div class="right_box">
-      <h1 class="title_dr">Dr. Mesarina</h1>
-      <h3>¿Porqué acudir con nosotros?</h3>
+      <h1 class="title_dr" style="font-size:64px">Dr. Mesarina</h1>
+      <h3 style="font-size:26px; ">¿Porqué acudir con nosotros?</h3>
       <hr>
-      <p>Nuestro objetivo es curar ad íntegro la lesión que te aqueja, y en lesiones crónicas e irreversibles reducir el dolor, mejorar la movilidad y, sobre todo, la calidad de vida de nuestros pacientes.</p>
+      <p style="font-size:18px; font-weight: lighter;">Nuestro objetivo es curar ad íntegro la lesión que te aqueja, y en lesiones crónicas e irreversibles reducir el dolor, mejorar la movilidad y, sobre todo, la calidad de vida de nuestros pacientes.</p>
       <v-btn style="background-color: #2397D7; width: fit-content" dark>Conocenos</v-btn>
     </div>
   </section>
