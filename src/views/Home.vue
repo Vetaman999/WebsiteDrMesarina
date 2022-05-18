@@ -8,7 +8,7 @@
       <Convention style="margin: 100px 0 200px 0;"></Convention>
       <Service style="margin: 100px 0 200px 0;"></Service>
     </v-container>
-    
+
     <CallToReserve></CallToReserve>
     <Contact style="margin: 100px 0 200px 0;"></Contact>
   </div>
