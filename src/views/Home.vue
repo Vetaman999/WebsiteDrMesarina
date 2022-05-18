@@ -1,8 +1,8 @@
 <template>
   <div class="home" >
     
-    <AboutUs></AboutUs>
     <Presentation></Presentation>
+    <AboutUs></AboutUs>
     <convention style="margin: 100px 0 200px 0;"></convention>
     <Service style="margin: 100px 0 200px 0;"></Service>
     <CallToReserve></CallToReserve>
