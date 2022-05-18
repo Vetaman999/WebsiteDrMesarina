@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-
     <Presentation></Presentation>
 
     <v-container class="mx-auto py-0" style="width: 70vw;">
