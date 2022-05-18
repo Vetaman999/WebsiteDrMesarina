@@ -3,21 +3,31 @@
         <div class="container-empty"></div>
         <div class="container-text">
             <div>
-                <h2 class="calltoreserve-title">Llámanos para reservar tu consulta</h2>
-                <p class="calltoreserve-text">Si tienes y quieres una consulta... Llámanos con toda confianza. Nosotros
-                    lo vamos a ayudar</p>
+                <h2 class="calltoreserve-title">{{title}}</h2>
+                <p class="calltoreserve-text">{{subTitle}}</p>
             </div>
         </div>
         <div class="container-btn">
             <v-btn style="background-color: #2397D7; color: white; height: 61px; width: 310px;">
                 <v-card-text style="font-size:20px; font-weight: lighter; color:#FFFFFF">
-                    Llámanos +51 947 358 498
+                    {{btnText}}
                 </v-card-text>
             </v-btn>
         </div>
         <div class="container-empty"></div>
     </div>
 </template>
+
+<script>
+export default {
+    name: 'call-to-reserve',
+    props: {
+        title: String,
+        subTitle: String,
+        btnText: String
+    }
+}
+</script>
 
 <style scoped>
 .calltoreserve-container {
@@ -34,7 +44,6 @@
     justify-content: center;
     align-items: center;
     flex: 9;
-    /* margin: 40px 0; */
 }
 
 .calltoreserve-title {
@@ -45,8 +54,9 @@
 
 .calltoreserve-text {
     color: white;
-    margin: 10px 0 10px 0;
+    padding: 0px 10px 0px 0;
     font-weight: lighter;
+    font-size: 20px;
 }
 
 .container-btn {

@@ -9,8 +9,15 @@
       <Service style="margin: 100px 0 200px 0;"></Service>
     </v-container>
     
-    <CallToReserve></CallToReserve>
+    <CallToReserve 
+      title="Llámanos para reservar tu consulta"
+      subTitle="Si tienes y quieres una consulta... Llámanos con toda confianza. Nosotros lo vamos a ayudar"
+      btnText="Llámanos +51 947 358 498"
+    />
     <Contact style="margin: 100px 0 200px 0;"></Contact>
+  
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDB.SMF&tabs=timeline&width=1000&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="740" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    <iframe src="https://peru-stars.web.app/" width="1000" height="500" ></iframe>
   </div>
 </template>
 
