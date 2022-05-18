@@ -1,10 +1,42 @@
 <template>
     <div>
         <div id="main-container" class="contact-container">
-            <div class="contact-color-container first-color"></div>
-            <div id="second-color" class="contact-color-container second-color"></div>
+            <div class="contact-color-container first-color">
+                <v-card color="transparent" elevation="0">
+                    <v-card-text style="font-size:22.5px; font-weight: 200; color:white; letter-spacing: 0.05ch;">
+                        Nos enfocamos en proporcionarle a nuestros pacientes tratamientos no quirúrgicos, no invasivos
+                        y/o quirúrgicos que le permitan su recuperación, aliviar el dolor, rehabilitar y prevenir
+                        futuras lesiones.
+                    </v-card-text>
+                    <v-card-actions>
+                        <v-flex d-flex justify-start mt-15>
+                            <v-btn style="background-color: #2397D7; color: white; height: 61px; width: 200px;">
+                                <v-card-text style="font-size:20px; font-weight: lighter; color:#FFFFFF">
+                                    CONOCER MÁS
+                                </v-card-text>
+                            </v-btn>
+                        </v-flex>
+                    </v-card-actions>
+                </v-card>
+            </div>
+            <div id="second-color" class="contact-color-container second-color">
+                <v-card color="transparent" elevation="0">
+                    <v-card-text style="font-size:22.5px; font-weight: 300; color:black; letter-spacing: 0.05ch; text-align: right;">
+                        Pregúntanos sobre cualquier tema de nuestras especialidades o sobre lo que podemos hacer por ti.
+                    </v-card-text>
+                    <v-card-actions>
+                        <v-flex d-flex justify-end mt-15>
+                            <v-btn style="background-color: #2397D7; color:#FFFFFF; height: 61px; width: 200px;">
+                                <v-card-text style="font-size:20px; font-weight: lighter; color: white">
+                                    CONTACTAR
+                                </v-card-text>
+                            </v-btn>
+                        </v-flex>
+                    </v-card-actions>
+                </v-card>
+            </div>
         </div>
-        <div id="image" class="contact-image">
+        <div id="ct-image" class="contact-image">
             <v-img src="../assets/microfno.png"></v-img>
         </div>
     </div>
@@ -16,36 +48,47 @@ export default {
     data: () => ({
         mainContainerElement: null,
         colorElement: null,
-        imageElement: null
+        imageElement: null,
+        imageOffset: {
+            x: 20,
+            y: 0
+        }
     }),
     mounted() {
         this.mainContainerElement = document.getElementById("main-container");
         this.colorElement = document.getElementById("second-color");
-        this.imageElement = document.getElementById("image");
+        this.imageElement = document.getElementById("ct-image");
 
         window.addEventListener("resize", this.updateImagePosition);
 
         if (this.colorElement.offsetWidth == this.mainContainerElement.offsetWidth
             || this.mainContainerElement.offsetWidth < 400) {
-            this.imageElement.style.left = `${(this.mainContainerElement.offsetWidth / 2) - (this.imageElement.offsetWidth / 2)}px`;
-            this.imageElement.style.top = `${this.colorElement.offsetTop - (this.imageElement.offsetHeight / 2)}px`
+            this.imageElement.style.visibility = "hidden";
+            // this.imageElement.style.left = `${(this.mainContainerElement.offsetWidth / 2) - (this.imageElement.offsetWidth / 2)}px`;
+            // this.imageElement.style.top = `${this.colorElement.offsetTop - (this.imageElement.offsetHeight / 2)}px`;
         }
         else {
-            this.imageElement.style.left = `${this.colorElement.offsetWidth - (this.imageElement.offsetWidth / 2)}px`;
-            this.imageElement.style.top = `${this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)}px`
+            this.imageElement.style.visibility = "visible";
+            this.imageElement.style.left = `${(this.colorElement.offsetWidth - (this.imageElement.offsetWidth / 2)) + this.imageOffset.x}px`;
+            this.imageElement.style.top = `${(this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)) + this.imageOffset.y}px`;
         }
+    },
+    unmounted() {
+        window.removeEventListener('resize', this.updateImagePosition);
     },
     methods: {
 
         updateImagePosition(e) {
             if (this.colorElement.offsetWidth == this.mainContainerElement.offsetWidth
                 || this.mainContainerElement.offsetWidth < 400) {
-                this.imageElement.style.left = `${(this.mainContainerElement.offsetWidth / 2) - (this.imageElement.offsetWidth / 2)}px`;
-                this.imageElement.style.top = `${this.colorElement.offsetTop - (this.imageElement.offsetHeight / 2)}px`
+                this.imageElement.style.visibility = "hidden";
+                // this.imageElement.style.left = `${(this.mainContainerElement.offsetWidth / 2) - (this.imageElement.offsetWidth / 2)}px`;
+                // this.imageElement.style.top = `${this.colorElement.offsetTop - (this.imageElement.offsetHeight / 2)}px`;
             }
             else {
-                this.imageElement.style.left = `${this.colorElement.offsetWidth - (this.imageElement.offsetWidth / 2)}px`;
-                this.imageElement.style.top = `${this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)}px`
+                this.imageElement.style.visibility = "visible";
+                this.imageElement.style.left = `${(this.colorElement.offsetWidth - (this.imageElement.offsetWidth / 2)) + this.imageOffset.x}px`;
+                this.imageElement.style.top = `${(this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)) + this.imageOffset.y}px`;
             }
         }
     }
@@ -54,8 +97,6 @@ export default {
 
 <style scoped>
 .contact-container {
-    height: 500px;
-    max-height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,9 +104,10 @@ export default {
 }
 
 .contact-color-container {
-    height: 100%;
-    min-width: 400px;
-    flex-grow: 1;
+    height: 450px;
+    width: 49vw;
+    flex-grow: 12;
+    padding: 100px 5vw;
 }
 
 .first-color {
@@ -77,8 +119,8 @@ export default {
 }
 
 .contact-image {
-    width: 300px;
-    height: 444px;
+    width: 270px;
+    height: 399.6px;
     position: absolute;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <v-card>
-        <v-img class="white--text align-center" height="500px" src="../assets/Portada.png">
+        <v-img class="white--text align-center" height="600px" src="../assets/Portada.png">
             <v-container grid-list-md fill-height fluid>
                     <v-flex xs12 sm4 d-flex justify-end mb-6>
                         <v-card color="transparent" elevation="0">

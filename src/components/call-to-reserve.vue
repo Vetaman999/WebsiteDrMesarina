@@ -1,23 +1,31 @@
 <template>
     <div class="calltoreserve-container">
+        <div class="container-empty"></div>
         <div class="container-text">
             <div>
                 <h2 class="calltoreserve-title">Llámanos para reservar tu consulta</h2>
-                <p class="calltoreserve-text">Si tienes y quieres una consulta... Llámanos con toda confianza. Nosotros lo vamos a ayudar</p>
+                <p class="calltoreserve-text">Si tienes y quieres una consulta... Llámanos con toda confianza. Nosotros
+                    lo vamos a ayudar</p>
             </div>
         </div>
         <div class="container-btn">
-            <v-btn style="padding: 25px 12px; font-weight: 700;" color="#80CCF6">Llámanos +51 947 358 498</v-btn>
+            <v-btn style="background-color: #2397D7; color: white; height: 61px; width: 310px;">
+                <v-card-text style="font-size:20px; font-weight: lighter; color:#FFFFFF">
+                    Llámanos +51 947 358 498
+                </v-card-text>
+            </v-btn>
         </div>
+        <div class="container-empty"></div>
     </div>
 </template>
 
 <style scoped>
-
 .calltoreserve-container {
     display: flex;
     width: 100%;
     background-color: #287DAA;
+    flex-wrap: wrap;
+    padding: 70px 0;
 }
 
 .container-text {
@@ -25,14 +33,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 3;
-    margin: 40px 0;
+    flex: 9;
+    /* margin: 40px 0; */
 }
 
 .calltoreserve-title {
     color: white;
     margin: 10px 0 10px 0;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 .calltoreserve-text {
@@ -45,7 +53,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 2;
+    flex: 4;
 }
 
+.container-empty {
+    flex: 1;
+}
 </style>

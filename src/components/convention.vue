@@ -4,7 +4,7 @@
             Nuestros Convenios
         </v-card-title>
         <hr width="70%" class="mx-auto" style="border:1px solid #024F78">
-        <v-div class="px-5" style="border-color: #024F78;">
+        <v-container class="px-5" style="border-color: #024F78;">
             <v-container grid-list-md>
                 <v-layout row wrap>
                     <v-card class="mx-auto" width="200px" elevation="0" color="transparent">
@@ -24,6 +24,6 @@
                     </v-card>
                 </v-layout>
             </v-container>
-        </v-div>
+        </v-container>
     </v-card>
 </template>
