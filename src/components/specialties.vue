@@ -1,9 +1,5 @@
 <template>
   <section class="main_container">
-    <div class="title">
-      <h2>Especialidades</h2>
-      <hr>
-    </div>
     <div class="specialties">
       <div class="left_box">
         <h4>Dentro de nuestras especialidades se encuentran:</h4>

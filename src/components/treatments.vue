@@ -1,9 +1,5 @@
 <template>
   <section class="main_container">
-    <div class="title">
-      <h2>Tratamientos</h2>
-      <hr>
-    </div>
 
     <div class="treatments">
       <div class="left_box">
