@@ -1,6 +1,6 @@
 <template>
     <div >
-        <div class="my-5" style="width: 90%; display: flex; justify-content: space-between; align-items: center;">
+        <div class="my-5 ml-5" style="width: 90%; display: flex; justify-content: space-between; align-items: center;">
             <h2 style="font-size:30px; color:#2397D7;">ACTUALIZACIONES</h2>
             <hr style="width: 82%; height: 2px; background-color: #6789a1; border: #6789a1;"/>
         </div>

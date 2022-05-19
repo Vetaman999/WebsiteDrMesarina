@@ -26,11 +26,11 @@
 
     <v-spacer></v-spacer>
 
-    <div class="hidden-sm-and-down">
-      <v-btn class="text-toolbar-btn mr-4" to="/" text>Inicio</v-btn>
-      <v-btn class="text-toolbar-btn mr-4" to="/profile" text>Dr. Mesarina</v-btn>
-      <v-btn class="text-toolbar-btn mr-4" to="/services" text>Servicios</v-btn>
-      <v-btn class="text-toolbar-btn mr-4" to="/update" text>Noticias</v-btn>
+    <div class="hidden-sm-and-down" :value="value">
+        <v-btn class="text-toolbar-btn mr-4" to="/" text>Inicio</v-btn>
+        <v-btn class="text-toolbar-btn mr-4" to="/profile" text>Dr. Mesarina</v-btn>
+        <v-btn class="text-toolbar-btn mr-4" to="/services" text>Servicios</v-btn>
+        <v-btn class="text-toolbar-btn mr-4" to="/update" text>Noticias</v-btn>
     </div>
   </v-app-bar>
 </template>
@@ -39,7 +39,8 @@
 
 
 export default {
-  name: "navbar"
+  name: "navbar",
+  data: () => ({ value: 1 }),
 }
 </script>
 
