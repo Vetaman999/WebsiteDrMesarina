@@ -1,6 +1,6 @@
 <template>
   <section class="main_container">
-      <div class="title">
+    <div class="title">
       <h2>Especialidades</h2>
       <hr>
     </div>
@@ -45,6 +45,9 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.title h2{
+  color: #2397D7;
 }
 hr{
   width: 82%;
