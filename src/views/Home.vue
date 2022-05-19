@@ -5,7 +5,7 @@
 
     <v-container class="mx-auto py-0" style="width: 70vw;">
       <AboutUs style="margin: 100px 0 200px 0;"></AboutUs>
-      <Convention style="margin: 100px 0 200px 0;"></Convention>
+      <Convention style="margin: 100px 0 100px 0;"></Convention>
       <Service style="margin: 100px 0 200px 0;"></Service>
     </v-container>
     <CallToReserve 

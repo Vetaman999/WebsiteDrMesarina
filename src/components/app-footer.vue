@@ -46,7 +46,7 @@ export default {
 <style scoped>
 .text_p{
   color: #eeeeee;
-  font-size:20px; 
+  font-size:17px; 
   font-weight: lighter
 }
 .img_bg {

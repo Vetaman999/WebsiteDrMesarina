@@ -3,7 +3,7 @@
         <div id="main-container" class="contact-container">
             <div class="contact-color-container first-color">
                 <v-card color="transparent" elevation="0">
-                    <v-card-text style="font-size:22.5px; font-weight: 200; color:white; letter-spacing: 0.05ch;">
+                    <v-card-text style="font-size:20px; font-weight: 200; color:white; letter-spacing: 0.05ch;">
                         Nos enfocamos en proporcionarle a nuestros pacientes tratamientos no quirúrgicos, no invasivos
                         y/o quirúrgicos que le permitan su recuperación, aliviar el dolor, rehabilitar y prevenir
                         futuras lesiones.
@@ -21,7 +21,7 @@
             </div>
             <div id="second-color" class="contact-color-container second-color">
                 <v-card color="transparent" elevation="0">
-                    <v-card-text style="font-size:22.5px; font-weight: 300; color:black; letter-spacing: 0.05ch; text-align: right;">
+                    <v-card-text style="font-size:20px; font-weight: 300; color:black; letter-spacing: 0.05ch; text-align: right;">
                         Pregúntanos sobre cualquier tema de nuestras especialidades o sobre lo que podemos hacer por ti.
                     </v-card-text>
                     <v-card-actions>

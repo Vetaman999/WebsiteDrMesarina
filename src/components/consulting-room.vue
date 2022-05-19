@@ -1,9 +1,9 @@
 <template>
     <div style="display: flex; width: 100%; background-color: #CAE7F7; flex-wrap: wrap;">
         <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; flex: 9;">
-            <div style="width:60%">
-                <p style="font-size:26px; font-weight: bold;">Dependiendo de las necesidades de nuestros pacientes, nuestro consultorio incluye:</p>
-                <ul type="*" style="font-size: 20px;">
+            <div style="width:90%" class="pt-5 pb-5">
+                <p style="font-size:22px; font-weight: bold;">Dependiendo de las necesidades de nuestros pacientes, nuestro consultorio incluye:</p>
+                <ul type="*" style="font-size: 17px;">
                     <li>Diagnóstico</li>
                     <li>Tratamientos no invasivos, conservadores no quirúrgicos.</li>
                     <li>Tratamientos Quirúrgicos Ortopédicos de toda magnitud como Artroscopías de Articulaciones tipo rodilla, hombro, cadera, tobillo a fin de reparar lesiones articulares de diversa etiologia.</li>
@@ -17,7 +17,25 @@
             </div>
         </div>
         <div style="display: flex; justify-content: center; align-items: center; flex: 4;">
-            <v-img height="750px" width="600px" src="../assets/diploma.png"></v-img>
+            <v-img class="img-diploma"></v-img>
         </div>        
     </div>
 </template>
+<style>
+.img-diploma {
+    
+    background: url('../assets/diploma.png') no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    min-width: 300px;
+}
+
+@media (max-width: 600px) {
+
+  .img{
+    height: 40vh;
+  }
+}
+    
+</style>

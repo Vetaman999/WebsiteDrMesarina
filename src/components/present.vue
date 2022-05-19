@@ -29,7 +29,7 @@
             </v-container>
         </v-img>
     </v-card> -->
-    <v-carousel  v-model="model">
+    <v-carousel v-model="model" class="v-flex">
     <v-carousel-item
       v-for="(img, i) in imgs"
       :key="i"
@@ -43,10 +43,10 @@
                     </v-flex>
                     <v-flex d-flex align-content-center flex-wrap>    
                         <v-card d-flex  color="transparent" elevation="0">
-                            <v-card-title mb-7 style="font-size:70px; color:#FFFFFF;">
+                            <v-card-title mb-7 style="font-size:5vw; color:#FFFFFF;">
                                 Dr.Alejandro Mesarina
                             </v-card-title>
-                            <v-card-text style="margin-top: 10px;font-size:23.5px; ; font-weight: lighter; color:#FFFFFF">
+                            <v-card-text style="margin-top: 10px;font-size:1.5vw; ; font-weight: lighter; color:#FFFFFF">
                                 Médico doctorado en medicina y especialista en Cirugía Ortopédica
                             </v-card-text>
                             <v-card-actions>
