@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
 
+  <div class="home">
     <Presentation></Presentation>
 
     <v-container class="mx-auto py-0" style="width: 70vw;">
@@ -8,7 +8,6 @@
       <Convention style="margin: 100px 0 200px 0;"></Convention>
       <Service style="margin: 100px 0 200px 0;"></Service>
     </v-container>
-    
     <CallToReserve 
       title="Llámanos para reservar tu consulta"
       subTitle="Si tienes y quieres una consulta... Llámanos con toda confianza. Nosotros lo vamos a ayudar"
