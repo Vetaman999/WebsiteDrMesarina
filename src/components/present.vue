@@ -51,7 +51,7 @@
                             </v-card-text>
                             <v-card-actions>
                                 <v-flex my-5 d-flex justify-center mb-6>
-                                    <v-btn href="https://wa.me/996999489" target="_blank" style="background-color: #2397D7; color:#FFFFFF; height: 61px; width: 200px;">
+                                    <v-btn href="https://wa.me/996999489" class="d-flex justify-center" target="_blank" style=";background-color: #2397D7; color:#FFFFFF; height: 61px; width: 200px;">
                                         <v-card-text  style="font-size:24px; font-weight: lighter; color:#FFFFFF">
                                             Contacto
                                         </v-card-text>

@@ -1,4 +1,5 @@
 <template>
+<div style="margin:3%">
     <section class="main_container">
         <div class="first-part-container">
             <div class="first-part-text-container">
@@ -20,6 +21,7 @@
 
         </div>
     </section>
+</div>
 </template>
 
 

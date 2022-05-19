@@ -3,9 +3,8 @@
     <Presentation />
     <Separator separate="ESPECIALIDADES"/>
     <Specialties />
-    <Separator separate="TRATAMIENTOS NO QUIRÚRGICO"/>
+    <Separator separate="TRATAMIENTOS"/>
     <Treatments />
-    <Separator separate="TRATAMIENTOS QUIRÚRGICO"/>
     <TreatmentSurgicalOrthopedic />
     <CallToReserve  style="margin: 50px 0 50px 0;"
       title="¡RESERVA TU CITA HOY!"

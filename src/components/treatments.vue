@@ -1,9 +1,10 @@
 <template>
+<div style="margin:2%">
   <section class="main_container">
 
     <div class="treatments">
       <div class="left_box">
-        <h4>TRATAMIENTO ORTOPÉDICO NO QUIRÚRGICO</h4>
+        <h2>TRATAMIENTO ORTOPÉDICO NO QUIRÚRGICO</h2>
         <p>No todos los problemas ortopédicos requieren de cirugía. Para muchas condiciones, la medicina regenerativa y/o correctiva proporciona una alternativa para aquellos que buscan evitar la cirugía o que desean prolongar la necesidad de una operación o que no pueden ser candidatos a una.</p>
         <v-list class="list_box">
             <v-list-group
@@ -32,6 +33,7 @@
       <div class="img_2"></div>
     </div>
   </section>
+</div>
 </template>
 
 <script>
