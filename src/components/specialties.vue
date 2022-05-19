@@ -46,9 +46,6 @@ export default {
   justify-content: space-between;
   align-items: center;
 }
-.title h2{
-  color: #2397D7;
-}
 hr{
   width: 82%;
   height: 2px;

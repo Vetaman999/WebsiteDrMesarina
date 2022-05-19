@@ -30,8 +30,7 @@
       <v-btn class="text-toolbar-btn mr-4" to="/" text>Inicio</v-btn>
       <v-btn class="text-toolbar-btn mr-4" to="/profile" text>Dr. Mesarina</v-btn>
       <v-btn class="text-toolbar-btn mr-4" to="/services" text>Servicios</v-btn>
-      <v-btn class="text-toolbar-btn mr-4" text>Dudas</v-btn>
-      <v-btn class="text-toolbar-btn mr-4" text>Noticias</v-btn>
+      <v-btn class="text-toolbar-btn mr-4" to="/update" text>Noticias</v-btn>
     </div>
   </v-app-bar>
 </template>
@@ -41,7 +40,6 @@
 
 export default {
   name: "navbar"
-
 }
 </script>
 
