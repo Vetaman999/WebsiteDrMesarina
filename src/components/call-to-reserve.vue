@@ -31,6 +31,7 @@ export default {
 
 <style scoped>
 .calltoreserve-container {
+    background: 1px solid black;
     display: flex;
     width: 100%;
     background-color: #287DAA;
@@ -39,6 +40,7 @@ export default {
 }
 
 .container-text {
+    background: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,5 +70,6 @@ export default {
 
 .container-empty {
     flex: 1;
+    background: 1px solid black;
 }
 </style>
