@@ -6,7 +6,7 @@
     <OurMission></OurMission>
     <ConsultingRoom></ConsultingRoom>
     <SpecializedServices></SpecializedServices>
-    <GoOffice style="margin: 0 0 50px 0;"></GoOffice>
+    <GoOffice></GoOffice>
     <Contact style="margin: 50px 0 50px 0;"></Contact>
   </div>
 </template>
@@ -19,6 +19,7 @@ import ConsultingRoom from '@/components/consulting-room.vue'
 import Contact from '@/components/contact.vue'
 import SpecializedServices from '@/components/specialized-services.vue'
 import GoOffice from '@/components/go-office.vue'
+import Separator from '@/components/separator.vue'
 
 export default {
   name: 'Profile',
@@ -31,6 +32,7 @@ export default {
     Contact,
     SpecializedServices,
     GoOffice,
+    Separator
   }
 }
 </script>

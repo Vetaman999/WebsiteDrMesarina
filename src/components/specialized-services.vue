@@ -1,12 +1,13 @@
 <template>
-    <div style="display: flex; width: 100%; background-color: #FFFFFF; flex-wrap: wrap; " >
+<div style="margin:3%">
+    <div style="display: flex; width: 100%; background-color: #E3F5FF; flex-wrap: wrap; " >
         <div style="display: flex; justify-content: center; align-items: center; flex: 6;">
             <v-img class="img-chica"></v-img>
         </div>       
         <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; flex: 9;">
-            <div style="width:90%" class="pt-5 pb-5">
+            <div style="width:60%" class="pt-5 pb-5">
                 <p style="font-size:20px;">Este acercamiento de <a style="font-weight: bold; color: black;">múltiples especialidades</a> nos permite <a style="font-weight: bold; color: black;">proporcionar</a> a nuestros pacientes el acceso a un <a style="font-weight: bold; color: black;">amplio rango</a> de <a style="font-weight: bold; color: black;">servicios especializados</a> que incluyen:</p>
-                <ul type="*" style="font-size: 17px;">
+                <ul type="*" style="font-size: 20px;">
                     <li>Evaluación integral y tratamiento relacionado con dolencias, desórdenes, enfermedades o accidentes en general.</li>
                     <li>Evaluación Diagnostico y tratamiento de lesiones deportivas diversas.</li>
                     <li>Análisis de la dieta alimenticia y consejería nutricional.</li>
@@ -18,6 +19,7 @@
             </div>
         </div> 
     </div>
+</div>
 </template>
 
 <style>

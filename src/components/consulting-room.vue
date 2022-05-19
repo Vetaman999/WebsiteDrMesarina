@@ -1,9 +1,10 @@
 <template>
-    <div style="display: flex; width: 100%; background-color: #CAE7F7; flex-wrap: wrap;">
+<div style="margin:3%;">
+    <div style="display: flex; width: 100%; background-color: #005483; flex-wrap: wrap;">
         <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; flex: 9;">
-            <div style="width:90%" class="pt-5 pb-5">
-                <p style="font-size:22px; font-weight: bold;">Dependiendo de las necesidades de nuestros pacientes, nuestro consultorio incluye:</p>
-                <ul type="*" style="font-size: 17px;">
+            <div style="width:60%" class="pt-5 pb-5">
+                <p style="font-size:22px; font-weight: bold; color: white;">Dependiendo de las necesidades de nuestros pacientes, nuestro consultorio incluye:</p>
+                <ul type="*" style="font-size: 20px;font-weight: lighter; color: white;">
                     <li>Diagnóstico</li>
                     <li>Tratamientos no invasivos, conservadores no quirúrgicos.</li>
                     <li>Tratamientos Quirúrgicos Ortopédicos de toda magnitud como Artroscopías de Articulaciones tipo rodilla, hombro, cadera, tobillo a fin de reparar lesiones articulares de diversa etiologia.</li>
@@ -20,6 +21,7 @@
             <v-img class="img-diploma"></v-img>
         </div>        
     </div>
+</div>
 </template>
 <style>
 .img-diploma {
