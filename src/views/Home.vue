@@ -14,7 +14,6 @@
       btnText="Llámanos +51 947 358 498"
     />
     <Contact style="margin: 100px 0 200px 0;"></Contact>
-  
 
   </div>
 </template>
