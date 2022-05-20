@@ -45,7 +45,7 @@ export default {
     AboutUs,
     Service,
     CallToReserve,
-    Convention
+    Convention,
   }
 }
 </script>

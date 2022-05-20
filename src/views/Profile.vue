@@ -32,7 +32,7 @@ export default {
     Contact,
     SpecializedServices,
     GoOffice,
-    Separator
+    Separator,
   }
 }
 </script>
