@@ -1,8 +1,8 @@
 <template>
     <v-card class="mx-auto" elevation="0" color="transparent">
-        <v-card-title class="justify-center pb-5" style="font-size: 5vw ; color: #024F78;">
+        <div class="convention-title">
             Nuestros Convenios
-        </v-card-title>
+        </div>
         <hr width="70%" class="mx-auto" style="border:1px solid #024F78">
         <v-container class="px-5" style="border-color: #024F78;">
             <v-container grid-list-md>
@@ -27,3 +27,20 @@
         </v-container>
     </v-card>
 </template>
+
+<style>
+.convention-title {
+    padding-bottom: 5px;
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+    color: #024F78;
+}
+
+
+@media (max-width: 1000px) {
+    .convention-title {
+        font-size: 7vw;
+    }
+}
+</style>

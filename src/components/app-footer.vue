@@ -7,7 +7,7 @@
           Estamos convencidos que para mantener un estilo de vida saludable y evitar el deterioro de otros órganos y funciones de estos debemos mantenernos activos y, por esta razón, hacemos todo lo que s encuentre en nuestras manos para que nuestros pacientes regresen a sus actividades diarias y deportivas.
         </p>
       </div>
-      <hr>
+      <hr class="footer-line">
       <div class="right_box">
         <h3 class="text_p">ESTAMOS EN:</h3>
         <div class="sec">
@@ -109,21 +109,33 @@ hr{
   margin-left: 10px;
 }
 @media (max-width: 1076px){
+  .act_call {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .footer-line {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+  }
   .img_bg{
-    height: 90vh;
+    height: 100% !important;
   }
   .blue_filter{
     flex-direction: column;
   }
   .img_doc {
     width: 30%;
-  }
-  hr{
-    height: 1px;
-    width: 70%;
+    padding: 0;
+    margin: 50px 0 15px 0;
   }
   .left_box{
     width: 100%;
+    height: 20%;
   }
   .right_box{
     width: 100%;

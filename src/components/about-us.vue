@@ -15,7 +15,7 @@
       <h3 style="font-size:2.5vh; ">¿Porqué acudir con nosotros?</h3>
       <hr>
       <p style="font-size:17px;">Nuestro objetivo es curar ad íntegro la lesión que te aqueja, y en lesiones crónicas e irreversibles reducir el dolor, mejorar la movilidad y, sobre todo, la calidad de vida de nuestros pacientes.</p>
-      <v-btn style="background-color: #2397D7; width: fit-content" dark>Conocenos</v-btn>
+      <v-btn style="background-color: #2397D7; width: fit-content" dark>Conócenos</v-btn>
     </div>
   </section>
 </template>

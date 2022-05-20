@@ -21,7 +21,8 @@
             </div>
             <div id="second-color" class="contact-color-container second-color">
                 <v-card color="transparent" elevation="0">
-                    <v-card-text style="font-size:20px; font-weight: 300; color:black; letter-spacing: 0.05ch; text-align: right;">
+                    <v-card-text
+                        style="font-size:20px; font-weight: 300; color:black; letter-spacing: 0.05ch; text-align: right;">
                         Pregúntanos sobre cualquier tema de nuestras especialidades o sobre lo que podemos hacer por ti.
                     </v-card-text>
                     <v-card-actions>
@@ -123,6 +124,14 @@ export default {
     height: 399.6px;
     position: absolute;
 }
+
+@media (max-width: 1000px) {
+    .contact-color-container {
+    width: 100vw;
+    }
+
+}
+
 </style>
 
 
