@@ -27,8 +27,6 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 import AboutUs from "@/components/about-us";
 import Presentation from '@/components/present.vue'
 import Service from '@/components/service.vue'
@@ -39,7 +37,6 @@ import Convention from '@/components/convention.vue'
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
     Presentation,
     Contact,
     AboutUs,

@@ -35,17 +35,14 @@
     </div>
 </template>
 <script>
-import imgope1 from '../assets/Fotos/IMG_1764.png'
+import imgope1 from '../assets/IMG_1771.png'
 import imgope2 from '../assets/ope.png'
-import imgope3 from '../assets/Fotos/IMG_1780.png'
 
 export default {
     data: () => ({
         imgs: [
             imgope1,
             imgope2,
-            imgope3,
-
         ],
     }),
 }

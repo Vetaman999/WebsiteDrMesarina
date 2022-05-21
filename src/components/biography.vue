@@ -48,14 +48,14 @@
 </template>
 <style>
 .img-bio {
-    background: url('../assets/Fotos/IMG_1753.png') no-repeat;
+    background: url('../assets/IMG_1755.png') no-repeat;
     height: 70vh;
     background-size: cover;
     background-position: center;
     min-width: 300px;
 }
 .img-bio2 {
-    background: url('../assets/Fotos/IMG_1756.png') no-repeat;
+    background: url('../assets/IMG_1757.png') no-repeat;
     height: 70vh;
     background-size: cover;
     background-position: center;

@@ -22,10 +22,10 @@
 </template>
 
 <script>
-import imgportada1 from "../assets/Portada.png"
-import imgportada2 from "../assets/Fotos/portada2.png"
-import imgportada3 from "../assets/Fotos/portada3.png"
-import imgportada4 from "../assets/Fotos/portada4.png"
+import imgportada1 from "../assets/portada1.png"
+import imgportada2 from "../assets/portada2.png"
+import imgportada3 from "../assets/portada3.png"
+import imgportada4 from "../assets/portada4.png"
 
 export default {
     data: () => ({

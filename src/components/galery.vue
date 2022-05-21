@@ -10,49 +10,49 @@
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/Fotos/IMG_1747.png">
+                    <img src="../assets/IMG_1780.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/Fotos/IMG_1772.png">
+                    <img src="../assets/IMG_1771.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/Fotos/IMG_1777.png">
+                    <img src="../assets/IMG_1774.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/Fotos/IMG_1780.png">
+                    <img src="../assets/ope.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/Fotos/IMG_1769.png">
+                    <img src="../assets/IMG_1782.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/Fotos/IMG_1752.png">
+                    <img src="../assets/IMG_1775.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/Fotos/IMG_1766.png">
+                    <img src="../assets/IMG_1784.png">
                 </figure>
             </a>
         </div>

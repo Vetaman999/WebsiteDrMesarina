@@ -23,8 +23,8 @@
 
 <script>
 import imgabout1 from "../assets/about-img.png"
-import imgabout2 from "../assets/Fotos/IMG_1753.png"
-import imgabout3 from "../assets/Fotos/IMG_1758.png"
+import imgabout2 from "../assets/IMG_1758.png"
+import imgabout3 from "../assets/IMG_1771.png"
 
 export default {
   name: "about-us",
@@ -112,24 +112,3 @@ hr {
   }
 }
 </style>
-
-<!--
-   <section class="main_container">
-    <div class="left_box">
-      <div id="base-doc-image" class="img_bg">
-        <div class="blue_filter"></div>
-      </div>
-      <div id="doc-image" class="doc-image">
-            <v-img src="../assets/doc1.png"></v-img>
-      </div>
-    </div>
-    
-    <div class="right_box py-10">
-      <h1 class="title_dr" style="font-size:4vh">Dr. Mesarina</h1>
-      <h3 style="font-size:2.5vh; ">¿Porqué acudir con nosotros?</h3>
-      <hr>
-      <p style="font-size:17px;">Nuestro objetivo es curar ad íntegro la lesión que te aqueja, y en lesiones crónicas e irreversibles reducir el dolor, mejorar la movilidad y, sobre todo, la calidad de vida de nuestros pacientes.</p>
-      <v-btn style="background-color: #2397D7; width: fit-content" dark>Conócenos</v-btn>
-    </div>
-  </section>
--->

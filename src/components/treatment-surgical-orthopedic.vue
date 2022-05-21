@@ -65,7 +65,7 @@
 }
 
 .img {
-    background: url('../assets/doctor_cirujano_extraño.jpg') no-repeat;
+    background: url('../assets/IMG_1758.png') no-repeat;
     height: 30vh;
     background-size: cover;
     background-position: center;

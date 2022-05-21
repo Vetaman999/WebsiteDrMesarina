@@ -34,14 +34,12 @@
     </div>
 </template>
 <script>
-import imgconsul1 from '../assets/Fotos/IMG_1782.png'
-import imgconsul2 from '../assets/diploma.png'
-import imgconsul3 from '../assets/Fotos/IMG_1784.png'
+import imgconsul1 from '../assets/diploma.png'
+import imgconsul2 from '../assets/IMG_1780.png'
 
 export default {
     data: () => ({
         imgs: [
-            imgconsul3,
             imgconsul1,
             imgconsul2,
 

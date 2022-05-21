@@ -34,17 +34,14 @@
 </template>
 
 <script>
-import imgespe1 from '../assets/Fotos/IMG_1749.png'
-import imgespe2 from '../assets/doctora.png'
-import imgespe3 from '../assets/Fotos/IMG_1770.png'
+import imgespe1 from '../assets/doctora.png'
+import imgespe2 from '../assets/IMG_1760.png'
 
 export default {
     data: () => ({
         imgs: [
             imgespe1,
             imgespe2,
-            imgespe3,
-
         ],
     }),
 }
@@ -66,30 +63,3 @@ export default {
     }
 }
 </style>
-
-<!--<div class="d-flex justify-start" style="align-items: center;flex-wrap: wrap">
-        <div class="d-flex justify-end">
-            <v-img height="700px" width="650px" src="../assets/doctora.png"></v-img>
-        </div>
-        <div style="width:1200px;border: 1px solid black;" class="d-flex justify-center">
-            <div class="mx-auto mb-10" style="width: 50%;">
-                <p style="font-size:22px;">Este acercamiento de <a>múltiples especialidades</a> nos permite <a>proporcionar</a> a nuestros pacientes el acceso a un <a>amplio rango</a> de <a>servicios especializados</a> que incluyen:</p>
-                <ul type="*" style="font-size: 20px;">
-                    <li>Evaluación integral y tratamiento relacionado con dolencias, desórdenes, enfermedades o accidentes en general.</li>
-                    <li>Evaluación Diagnostico y tratamiento de lesiones deportivas diversas.</li>
-                    <li>Análisis de la dieta alimenticia y consejería nutricional.</li>
-                    <li>Acceso al mejor equipo de especialistas en rehabilitación y terapia física.</li>
-                    <li>Tratamiento integral de la persona (salud, estilo de vida, etapas del ciclo de vida, etc.).</li>
-                    <li>Médicos asociados en España y EE.UU.</li>
-                    <li>Laboratorio especializado.</li>
-                </ul>
-                <div class="d-flex justify-center">
-                    <v-btn style="background-color: #2397D7; color: white; height: 50px; width: 200px;">
-                        <v-card-text style="font-size:20px; font-weight: lighter; color:#FFFFFF">
-                            CONTACTO
-                        </v-card-text>
-                    </v-btn>
-                </div>
-            </div>
-        </div>        
-    </div>-->
