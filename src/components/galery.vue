@@ -10,55 +10,58 @@
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/ope.png">
+                    <img src="../assets/Fotos/IMG_1747.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/ope.png">
+                    <img src="../assets/Fotos/IMG_1772.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/ope.png">
+                    <img src="../assets/Fotos/IMG_1777.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/ope.png">
+                    <img src="../assets/Fotos/IMG_1780.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/ope.png">
+                    <img src="../assets/Fotos/IMG_1769.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/ope.png">
+                    <img src="../assets/Fotos/IMG_1752.png">
                 </figure>
             </a>
         </div>
         <div class="box-img">
             <a>
                 <figure>
-                    <img src="../assets/ope.png">
+                    <img src="../assets/Fotos/IMG_1766.png">
                 </figure>
             </a>
         </div>
     </div>
 </div>
 </template>
+
+<script>    
+</script>
 
 <style scoped>
 .container-img{
