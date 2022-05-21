@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Presentation></Presentation>
     <CardProfile style="margin: 50px 0 50px 0;"></CardProfile>
     <Biography></Biography>
     <OurMission></OurMission>
@@ -11,7 +10,6 @@
   </div>
 </template>
 <script> 
-import Presentation from '@/components/present.vue'
 import CardProfile from '@/components/card-profile.vue'
 import OurMission from '@/components/our-mission.vue'
 import Biography from '@/components/biography.vue'
@@ -24,7 +22,6 @@ import Separator from '@/components/separator.vue'
 export default {
   name: 'Profile',
   components: {
-    Presentation,
     CardProfile,
     OurMission,
     Biography,

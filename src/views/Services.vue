@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Presentation />
     <Separator separate="ESPECIALIDADES"/>
     <Specialties />
     <Separator separate="TRATAMIENTOS"/>
@@ -15,7 +14,6 @@
 </template>
 
 <script>
-import Presentation from '@/components/present.vue';
 import Specialties from "../components/specialties";
 import Treatments from "../components/treatments.vue";
 import TreatmentSurgicalOrthopedic from "../components/treatment-surgical-orthopedic.vue";
@@ -25,7 +23,6 @@ import Separator from '@/components/separator.vue'
 export default {
   name: "Services",
   components:{
-    Presentation,
     Specialties,
     Treatments,
     CallToReserve,

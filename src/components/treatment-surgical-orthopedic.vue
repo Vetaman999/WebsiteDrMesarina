@@ -1,5 +1,5 @@
 <template>
-<div style="margin:3%">
+<div style="margin:3% 10%">
     <section class="main_container">
         <div class="first-part-container">
             <div class="first-part-text-container">

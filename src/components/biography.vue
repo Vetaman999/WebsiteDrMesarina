@@ -1,5 +1,5 @@
 <template>
-    <div style="margin:3%;">
+    <div style="margin: 3% 10%;">
         <div style="display: flex; width: 100%; background-color: #CAE7F7; flex-wrap: wrap;">
             <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; flex: 9;">
                 <div style="width:60%" class="pt-5 pb-5">
@@ -23,8 +23,8 @@
                         el bienestar, la actividad física y el aumento del desempeño físico <a
                             style="font-weight: bold; color: black;">bajo estrictos estándares médicos.</a></p>
                     <div class="d-flex justify-center">
-                        <v-btn style="background-color: #2397D7; color: white; height: 61px; width: 310px;">
-                            <v-card-text style="font-size:20px; font-weight: lighter; color:#FFFFFF">
+                        <v-btn href="https://wa.me/947358498" target="_blank" style="background-color: #2397D7; color: white; height: 61px; width: 310px;">
+                            <v-card-text class="d-flex justify-center" style="font-size:20px; font-weight: lighter; color:#FFFFFF">
                                 CONTACTO
                             </v-card-text>
                         </v-btn>

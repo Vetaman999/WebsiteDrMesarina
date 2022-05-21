@@ -10,7 +10,7 @@
                     </v-card-text>
                     <v-card-actions>
                         <v-flex d-flex justify-start mt-15>
-                            <v-btn style="background-color: #2397D7; color: white; height: 61px; width: 200px;">
+                            <v-btn to="/profile" style="background-color: #2397D7; color: white; height: 61px; width: 200px;">
                                 <v-card-text style="font-size:20px; font-weight: lighter; color:#FFFFFF">
                                     CONOCER MÁS
                                 </v-card-text>
@@ -27,8 +27,8 @@
                     </v-card-text>
                     <v-card-actions>
                         <v-flex d-flex justify-end mt-15>
-                            <v-btn style="background-color: #2397D7; color:#FFFFFF; height: 61px; width: 200px;">
-                                <v-card-text style="font-size:20px; font-weight: lighter; color: white">
+                            <v-btn href="https://wa.me/947358498" target="_blank" style="background-color: #2397D7; color:#FFFFFF; height: 61px; width: 200px;">
+                                <v-card-text class="justify-center d-flex" style="font-size:20px; font-weight: lighter; color: white">
                                     CONTACTAR
                                 </v-card-text>
                             </v-btn>
@@ -71,7 +71,7 @@ export default {
         else {
             this.imageElement.style.visibility = "visible";
             this.imageElement.style.left = `${(this.colorElement.offsetWidth - (this.imageElement.offsetWidth / 2)) + this.imageOffset.x}px`;
-            this.imageElement.style.top = `${(this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)) + this.imageOffset.y}px`;
+            this.imageElement.style.top = `${(this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)) + this.imageOffset.y + (this.imageElement.offsetHeight/8)}px`;            
         }
     },
     unmounted() {
@@ -89,7 +89,7 @@ export default {
             else {
                 this.imageElement.style.visibility = "visible";
                 this.imageElement.style.left = `${(this.colorElement.offsetWidth - (this.imageElement.offsetWidth / 2)) + this.imageOffset.x}px`;
-                this.imageElement.style.top = `${(this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)) + this.imageOffset.y}px`;
+                this.imageElement.style.top = `${(this.colorElement.offsetTop + (this.colorElement.offsetHeight / 2) - (this.imageElement.offsetHeight / 2)) + this.imageOffset.y + (this.imageElement.offsetHeight/8)}px`;            
             }
         }
     }

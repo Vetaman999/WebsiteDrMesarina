@@ -1,11 +1,11 @@
 <template>
-    <div style="margin:3%;">
-        <div style="display: flex; width: 100%; background-color: #005483; flex-wrap: wrap;">
+    <div style="margin:3% 10%;">
+        <div style="display: flex; width: 100%; background-color: #E3F5FF; flex-wrap: wrap;">
             <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; flex: 9;">
                 <div style="width:60%" class="pt-5 pb-5">
-                    <p style="font-size:22px; font-weight: bold; color: white;">Dependiendo de las necesidades de
+                    <p style="font-size:22px; font-weight: bold; color: black;">Dependiendo de las necesidades de
                         nuestros pacientes, nuestro consultorio incluye:</p>
-                    <ul type="*" style="font-size: 20px;font-weight: lighter; color: white;">
+                    <ul type="*" style="font-size: 20px; color: black;">
                         <li>Diagnóstico</li>
                         <li>Tratamientos no invasivos, conservadores no quirúrgicos.</li>
                         <li>Tratamientos Quirúrgicos Ortopédicos de toda magnitud como Artroscopías de Articulaciones

@@ -5,7 +5,7 @@
         <v-carousel-item v-for="(img) in imgs" :key="img" v-bind:src="img"></v-carousel-item>
       </v-carousel>
       <div id="doc-image" class="doc-image">
-        <v-img src="../assets/doc1.png"></v-img>
+        <v-img height="100%" src="../assets/doc1.png"></v-img>
       </div>
     </div>
 
@@ -16,7 +16,7 @@
       <p style="font-size:17px;">Nuestro objetivo es curar ad íntegro la lesión que te aqueja, y en lesiones crónicas e
         irreversibles reducir el dolor, mejorar la movilidad y, sobre todo, la calidad de vida de nuestros pacientes.
       </p>
-      <v-btn style="background-color: #2397D7; width: fit-content" dark>Conócenos</v-btn>
+      <v-btn to="/profile" style="background-color: #2397D7; width: fit-content" dark>Conócenos</v-btn>
     </div>
   </section>
 </template>
@@ -62,16 +62,17 @@ export default {
 
 <style scoped>
 .doc-image {
-  width: 160px;
-  height: 8%;
+  width: 200px;
+  height: 12%;
   position: absolute;
+  box-shadow: 0 0 15px 2px black;
 }
 
 .main_container {
   margin-top: 50px;
   display: flex;
   justify-content: space-evenly;
-  height: 50vh;
+  height: 60vh;
 }
 
 .left_box {

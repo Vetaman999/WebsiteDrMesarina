@@ -1,6 +1,6 @@
 <template>
-    <div style="margin:3%">
-        <div style="display: flex; width: 100%; background-color: #E3F5FF; flex-wrap: wrap; ">
+    <div style="margin:3% 10%">
+        <div style="display: flex; width: 100%; background-color: #FFFFFF; flex-wrap: wrap; ">
 
             <div
                 style="display: flex; justify-content: center; align-items: center; height: 60vh; width: 500px;  flex: 4;">

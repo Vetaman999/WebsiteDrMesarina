@@ -8,8 +8,8 @@
             </div>
         </div>
         <div class="container-btn">
-            <v-btn style="background-color: #2397D7; color: white; height: 61px; width: 310px;">
-                <v-card-text style="font-size:20px; font-weight: lighter; color:#FFFFFF">
+            <v-btn style="background-color: #2397D7; color: white; height: 61px; width: 310px;" href="https://wa.me/947358498" target="_blank">
+                <v-card-text class="justify-center d-flex" style=";font-size:20px; font-weight: lighter; color:#FFFFFF">
                     {{btnText}}
                 </v-card-text>
             </v-btn>

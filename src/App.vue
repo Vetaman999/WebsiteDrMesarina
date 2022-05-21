@@ -1,6 +1,7 @@
 <template>
   <v-app>
     <navbar></navbar>
+        <Presentation />
     <v-main>
       <router-view />
     </v-main>
@@ -13,13 +14,14 @@
 import navbar from "./components/navbar";
 import AppFooter from "./components/app-footer";
 import Wsp from "./components/btn-wsp.vue";
-
+import Presentation from '@/components/present.vue'
 export default {
   name: 'App',
   components: {
     navbar,
     Wsp,
-    AppFooter
+    AppFooter,
+    Presentation
   },
 
   data: () => ({

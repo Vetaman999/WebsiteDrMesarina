@@ -2,9 +2,11 @@
     <div class="presentation-carousel">
         <v-carousel interval="9000" cycle v-model="model" hide-delimiter-background height="100%">
             <v-carousel-item v-for="(img, i) in imgs" :key="i" v-bind:src="img">
+            </v-carousel-item>
+            <div style="z-index: 1; position:absolute; width: 100%; height: 100%; ">
                 <div class="presentation-container">
-                    <div style="height: fit-content;">
-                        <v-img src="../assets/pres.png" width="300px" height="300px" />
+                    <div style="height: fit-content; width: fit-content;">
+                        <img class="presentation-img" src="../assets/pres.png" />
                     </div>
 
                     <div class="presentation-text-container">
@@ -16,7 +18,7 @@
                             href="https://wa.me/996999489" target="_blank">Contacto</v-btn>
                     </div>
                 </div>
-            </v-carousel-item>
+            </div>
         </v-carousel>
     </div>
 </template>
@@ -52,6 +54,7 @@ export default {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
 }
 
 .presentation-text-container {
@@ -63,26 +66,35 @@ export default {
 }
 
 .presentation-title {
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 500;
     color: white;
 }
 
+.presentation-img{
+    width:300px; height:300px;
+}
 .presentation-description {
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 200;
     color: white;
 }
 
+
 @media (max-width: 1000px) {
+    .presentation-img{
+        height: 270px;
+        width: 270px;
+    }
     .presentation-carousel {
-        height: 650px;
+        height: 220vh;
     }
 
     .presentation-container {
         height: 90%;
     }
-    .presentation-text-container{
+
+    .presentation-text-container {
         margin-left: 0;
     }
 
@@ -97,10 +109,16 @@ export default {
 }
 
 @media (max-width: 700px) {
-    .presentation-text-container{
+    .presentation-img{
+        margin-top: 20px;
+        height: 220px;
+        width: 220px;
+    }
+    .presentation-text-container {
         margin: 0 20px;
         justify-content: center;
     }
+
     .presentation-title {
         font-size: 8vw;
         text-align: center;
