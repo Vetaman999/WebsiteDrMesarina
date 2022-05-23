@@ -3,7 +3,7 @@
         <div style="display: flex; width: 100%; background-color: #CAE7F7; flex-wrap: wrap;">
             <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; flex: 9;">
                 <div style="width:60%" class="pt-5 pb-5">
-                    <p style="font-size:17px;">El <a style="font-weight: bold; color: #2397D7;">Dr. Alejandro
+                    <p style="font-size:20px;">El <a style="font-weight: bold; color: #2397D7;">Dr. Alejandro
                             Mesarina</a> es médico doctorado en medicina y <a
                             style="font-weight: bold; color: black;">especialista</a> en <a
                             style="font-weight: bold; color: black;">Cirugía Ortopédica</a>, graduado como tal en el
@@ -12,13 +12,13 @@
                             style="font-weight: bold; color: black;">diagnósticos certeros</a>, así como proponer las <a
                             style="font-weight: bold; color: black;">más modernas</a> y variadas posibilidades de
                         tratamiento.</p>
-                    <p style="font-size:17px;">Asimismo, nos enfocamos en la <a
+                    <p style="font-size:20px;">Asimismo, nos enfocamos en la <a
                             style="font-weight: bold; color: black;">prevención</a> y <a
                             style="font-weight: bold; color: black;">rehabilitación</a> de dolencias, desórdenes y
                         enfermedades del <a style="font-weight: bold; color: black;">sistema músculo-esquelético y
                             articular</a>, el cual incluye huesos, articulaciones, ligamentos, músculos, nervios y
                         tendones.</p>
-                    <p style="font-size:17px;">Impulsamos el cuidado <a
+                    <p style="font-size:20px;">Impulsamos el cuidado <a
                             style="font-weight: bold; color: black;">preventivo</a> mediante la promoción de la salud,
                         el bienestar, la actividad física y el aumento del desempeño físico <a
                             style="font-weight: bold; color: black;">bajo estrictos estándares médicos.</a></p>

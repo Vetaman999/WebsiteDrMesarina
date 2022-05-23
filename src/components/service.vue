@@ -59,7 +59,8 @@
 #anima4 {
     animation-name: animate;
     animation-duration: 5s;
-    position: relative;     
+    position: relative;    
+    animation-play-state: running; 
     animation-iteration-count: infinite;
 }
 
