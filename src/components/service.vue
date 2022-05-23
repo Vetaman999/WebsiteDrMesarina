@@ -4,7 +4,7 @@
             <v-layout row wrap>
                 <v-card width="200px" class="mx-auto" elevation="0" color="transparent">
                     <v-img class="mx-auto" src="../assets/icon2.png" width="77px" height="77px"></v-img>
-                    <div class="anima">
+                    <div :class="anime">
                         <v-card-title class="justify-center"
                             style="margin-top: 10px;font-size:80px; font-weight: medium; color:#024F78">100
                         </v-card-title>
@@ -52,8 +52,11 @@
     </v-card>
 </template>
 
-<style>
-.anima{
+<style scoped>
+</style>
+
+<!--
+    .anima{
     animation-name: animate;
     animation-duration: 3s;
     position: relative;
@@ -81,4 +84,4 @@
         opacity: 40%;
     }
 }
-</style>
+-->
