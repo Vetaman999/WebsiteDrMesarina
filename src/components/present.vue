@@ -57,11 +57,10 @@ export default {
 
 }
 
-.presentation-text-container {
+.presentation-text-container {  
     height: fit-content;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-left: 30px;
 }
 
@@ -75,12 +74,13 @@ export default {
     width:300px; height:300px;
 }
 .presentation-description {
+    margin-top: -24px;
     font-size: 1.7vw;
-    font-weight: 200;
+    font-weight: 150;
     color: white;
 }
 
-
+                            
 @media (max-width: 1000px) {
     .presentation-img{
         height: 270px;

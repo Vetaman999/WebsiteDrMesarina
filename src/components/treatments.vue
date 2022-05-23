@@ -11,7 +11,7 @@
           <v-row justify="center">
             <v-expansion-panels popout>
               <v-expansion-panel style="background:#E3F5FF">
-                <v-expansion-panel-header>VISCOSUPLEMENTACIÓN</v-expansion-panel-header>
+                <v-expansion-panel-header style="font-weight:bold">VISCOSUPLEMENTACIÓN</v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>La viscosuplementación es un tratamiento confiable para mucho de los síntomas de la osteoartrosis,
                     asi como condiciones de lesiones condrales (cartilago) como la condropatia de patella o las diversas
@@ -35,7 +35,7 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel style="background:#E3F5FF">
-                <v-expansion-panel-header>SUERO AUTÓLOGO CONDICIONADO</v-expansion-panel-header>
+                <v-expansion-panel-header style="font-weight:bold">SUERO AUTÓLOGO CONDICIONADO</v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>El suero enriquecido autologo condicionado es un suero que contiene una gran cantidad de proteínas.
                     Estas proteínas pueden iniciar y acelerar el crecimiento de nuevos tejidos dentro de los tendones y
@@ -58,7 +58,7 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel style="background:#E3F5FF">
-                <v-expansion-panel-header>Terapia con células madre</v-expansion-panel-header>
+                <v-expansion-panel-header style="font-weight:bold">TETAIA CON CÉLULAS MADRE</v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>¿Qué tal si pudieras utilizar tus células madre para reducir tu dolor y regenerar tus lesiones
                     óseas cartilaginosas, ligamentarias y musculares?</p>
@@ -112,7 +112,7 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel style="background:#E3F5FF">
-                <v-expansion-panel-header>TERAPIA FÍSICA Y REHABILITACIÓN</v-expansion-panel-header>
+                <v-expansion-panel-header style="font-weight:bold">TERAPIA FÍSICA Y REHABILITACIÓN</v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>La terapia física puede ser prescrita como un tratamiento conservador para ciertas condiciones o
                     como parte de un tratamiento post operatorio para acelerar la recuperación después de una cirugía o
@@ -128,7 +128,7 @@
                 </v-expansion-panel-content>
               </v-expansion-panel>
               <v-expansion-panel style="background:#E3F5FF">
-                <v-expansion-panel-header>Nutrición</v-expansion-panel-header>
+                <v-expansion-panel-header style="font-weight:bold">NUTRICIÓN</v-expansion-panel-header>
                 <v-expansion-panel-content>
                   <p>RUBEN HINOJOSA ALARCON</p>
                   <p>NUTRICIONISTA - CNP 2347</p>

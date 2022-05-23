@@ -1,7 +1,7 @@
 <template>
   <section class="main_container">
     <div class="left_box">
-      <v-carousel id="base-doc-image" style="width: 80%; height: 50vh;" cycle hide-delimiters :show-arrows="false">
+      <v-carousel id="base-doc-image" style="width: 85%; height: 60vh;" cycle hide-delimiters :show-arrows="false">
         <v-carousel-item v-for="(img) in imgs" :key="img" v-bind:src="img"></v-carousel-item>
       </v-carousel>
       <div id="doc-image" class="doc-image">
@@ -12,18 +12,22 @@
     <div class="right_box py-10">
       <h1 class="title_dr" style="font-size:4vh">Dr. Mesarina</h1>
       <h3 style="font-size:2.5vh; ">¿Porqué acudir con nosotros?</h3>
-      <hr>
-      <p style="font-size:17px;">Nuestro objetivo es curar ad íntegro la lesión que te aqueja, y en lesiones crónicas e
+      <hr class="mb-10">
+      <p style="font-size:20px;">Nuestro objetivo es curar ad íntegro la lesión que te aqueja, y en lesiones crónicas e
         irreversibles reducir el dolor, mejorar la movilidad y, sobre todo, la calidad de vida de nuestros pacientes.
       </p>
-      <v-btn to="/profile" style="background-color: #2397D7; width: fit-content" dark>Conócenos</v-btn>
+      <v-btn style=";background-color: #2397D7; color: white; height: 59px; width: 200px;" to="/profile">
+                <v-card-text class=" my-auto justify-center d-flex" style=";font-size:20px; font-weight: lighter; color:#FFFFFF">
+                    Conocenos
+                </v-card-text>
+      </v-btn>
     </div>
   </section>
 </template>
 
 <script>
 import imgabout1 from "../assets/about-img.png"
-import imgabout2 from "../assets/IMG_1758.png"
+import imgabout2 from "../assets/cor.jpg"
 import imgabout3 from "../assets/IMG_1771.png"
 
 export default {
@@ -112,4 +116,4 @@ hr {
     width: 90%;
   }
 }
-</style>
+</style> 
